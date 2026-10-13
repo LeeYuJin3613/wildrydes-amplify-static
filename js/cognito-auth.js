@@ -101,7 +101,11 @@ var WildRydes = window.WildRydes || {};
     }
 
     function toUsername(email) {
+<<<<<<< HEAD
         return email.replace('@', '-at-');
+=======
+        return email;
+>>>>>>> c4a818cce9cc27895a56ab4be3e5b352164d6131
     }
 
     /*
